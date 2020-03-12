@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "CommonJS",
+        "target": "ES5",
+        "lib": ["ES6","DOM","ESNext.AsyncIterable"],
+        "sourceMap": true,
+        "allowJs": true,
+        "moduleResolution": "Node",
+        "rootDir": "src",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitThis": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "script",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTest.ts"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "myUber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "http://github.com/kijoyoo/myUber.git",
+  "author": "kijoyoo <youkijo@daum.net>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
