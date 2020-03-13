@@ -1,10 +1,10 @@
 
-type Greeting{
+type sayHelloResponse{
     text: String!
     error: Boolean!
 }
 
 type Query{
-    sayHello: Greeting!
+    sayHello(name:String!): sayHelloResponse!
 }
 
