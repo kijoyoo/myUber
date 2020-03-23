@@ -6,13 +6,10 @@ import {Column, Entity, BaseEntity,PrimaryGeneratedColumn, CreateDateColumn, Upd
 class Place extends BaseEntity{
     @PrimaryGeneratedColumn() id: number
 
-
-    @CreateDateColumn() createAt: string;
-    @UpdateDateColumn() updateAt: string;
-
+    
     @Column({type:"text"})
     name: string;
-
+    
     @Column({type:"double precision", default:0})
     lat: number;
     
@@ -24,7 +21,11 @@ class Place extends BaseEntity{
     
     @Column({type:"boolean", default:false})
     isFav:boolean;
-
+    
+    @CreateDateColumn() createAt: string;
+        
+    @UpdateDateColumn() updateAt: string;
+    
 }
 
 export default Place;
